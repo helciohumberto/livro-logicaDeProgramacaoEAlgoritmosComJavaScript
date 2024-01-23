@@ -1,0 +1,25 @@
+.normal{
+  float: left;
+  height: 300px;
+  width: 300px;
+}
+.alta{
+  float: left;
+  height: 420px;
+  width: 300px;
+}
+h1{
+  border-bottom-style: inset;
+}
+.fonte-azul{
+  color: blue;
+}
+.oculta{
+  display: none;
+}
+.exibe{
+  display: inline;
+}
+.italico{
+  font-style: italic;
+}

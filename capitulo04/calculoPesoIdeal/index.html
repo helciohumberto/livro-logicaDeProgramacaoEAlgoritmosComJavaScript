@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="_104620698_prmo_imc_br-nc.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  <img src="_104620698_prmo_imc_br-nc.png" alt="Balança">
+  <h1>Programa cálculo do Peso Ideal</h1>
+  <form>
+    <p>Nome:
+      <input type="text" id="inName" required>
+    </p>
+    <p>Sexo:
+      <input type="radio" name="sexo" id="inMan" required>Masculino
+      <input type="radio" name="sexo" id="inWoman" required>Feminino
+    </p>
+    <p>Altura:
+      <input type="number" id="inHeigth" step="0.01" min="0" required>
+    </p>
+    <input type="submit" value="Calcular Peso Ideal">
+    <input type="reset" value="Limpar Campos">
+  </form>
+  <h3></h3>
+  <script src="app.js"></script>
+</body>
+</html>
